@@ -55,8 +55,8 @@
         <p class="section-subtitle">Dapatkan manfaat maksimal dari setiap event yang Anda ikuti</p>
         <div class="row g-4">
             <div class="col-md-6">
-                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none';">
-                    <div style="font-size: 2.5rem;">📈</div>
+                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease; animation: fadeInUp 0.6s ease-out 0.1s both;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)'; this.style.transform='translateY(-8px)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none'; this.style.transform='translateY(0)';">
+                    <div style="font-size: 2.5rem; animation: bounce 2s ease-in-out infinite;">📈</div>
                     <div>
                         <h4 style="font-weight: 600; margin-bottom: 0.5rem; color: #1a202c;">Tingkatkan Skill</h4>
                         <p style="color: #4b5563; margin: 0; font-size: 0.95rem;">Belajar skill baru dari para ahli dan praktisi industri.</p>
@@ -64,8 +64,8 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none';">
-                    <div style="font-size: 2.5rem;">🤝</div>
+                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease; animation: fadeInUp 0.6s ease-out 0.2s both;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)'; this.style.transform='translateY(-8px)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none'; this.style.transform='translateY(0)';">
+                    <div style="font-size: 2.5rem; animation: bounce 2s ease-in-out infinite 0.2s;">🤝</div>
                     <div>
                         <h4 style="font-weight: 600; margin-bottom: 0.5rem; color: #1a202c;">Networking</h4>
                         <p style="color: #4b5563; margin: 0; font-size: 0.95rem;">Bangun jaringan profesional dengan sesama mahasiswa dan praktisi.</p>
@@ -73,8 +73,8 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none';">
-                    <div style="font-size: 2.5rem;">🎯</div>
+                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease; animation: fadeInUp 0.6s ease-out 0.3s both;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)'; this.style.transform='translateY(-8px)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none'; this.style.transform='translateY(0)';">
+                    <div style="font-size: 2.5rem; animation: bounce 2s ease-in-out infinite 0.4s;">🎯</div>
                     <div>
                         <h4 style="font-weight: 600; margin-bottom: 0.5rem; color: #1a202c;">Raih Sertifikat</h4>
                         <p style="color: #4b5563; margin: 0; font-size: 0.95rem;">Dapatkan sertifikat penghargaan untuk menambah portofolio Anda.</p>
@@ -82,8 +82,8 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none';">
-                    <div style="font-size: 2.5rem;">⭐</div>
+                <div class="d-flex gap-3" style="padding: 1.5rem; background: white; border-radius: 12px; border: 2px solid #e5e7eb; transition: all 0.3s ease; animation: fadeInUp 0.6s ease-out 0.4s both;" onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.1)'; this.style.transform='translateY(-8px)';" onmouseout="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none'; this.style.transform='translateY(0)';">
+                    <div style="font-size: 2.5rem; animation: bounce 2s ease-in-out infinite 0.6s;">⭐</div>
                     <div>
                         <h4 style="font-weight: 600; margin-bottom: 0.5rem; color: #1a202c;">Raih SKP</h4>
                         <p style="color: #4b5563; margin: 0; font-size: 0.95rem;">Kumpulkan poin SKP melalui kegiatan akademik dan sosial.</p>
@@ -94,11 +94,12 @@
     </div>
 </div>
 
-<div style="background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); color: white; padding: 4rem 0; text-align: center; margin-top: 3rem;">
-    <div class="container">
-        <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 1rem;">Siap untuk Petualangan Baru?</h2>
-        <p style="font-size: 1.05rem; margin-bottom: 2rem; opacity: 0.95;">Temukan event impian kamu dan daftarkan diri sekarang juga!</p>
-        <a href="/events" class="btn-hero">Lihat Semua Event</a>
+<div style="background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); color: white; padding: 4rem 0; text-align: center; margin-top: 3rem; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('data:image/svg+xml,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><g fill=\"%23ffffff\" fill-opacity=\"0.05\"><path d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/></g></g></svg>'); opacity: 0.3; animation: float 8s ease-in-out infinite;"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+        <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 1rem; animation: fadeInDown 0.8s ease-out;">Siap untuk Petualangan Baru?</h2>
+        <p style="font-size: 1.05rem; margin-bottom: 2rem; opacity: 0.95; animation: fadeInUp 0.8s ease-out 0.2s both;">Temukan event impian kamu dan daftarkan diri sekarang juga!</p>
+        <a href="/events" class="btn-hero" style="animation: zoomIn 0.8s ease-out 0.4s both;">Lihat Semua Event</a>
     </div>
 </div>
 @endsection

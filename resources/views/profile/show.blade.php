@@ -16,7 +16,7 @@
             <!-- Profile Card -->
             <div class="col-lg-4 mb-4">
                 <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08); text-align: center;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-family: 'Poppins', sans-serif; font-weight: 600;">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-family: 'Poppins', sans-serif; font-weight: 600;">
                         {{ substr($user->name, 0, 1) }}
                     </div>
                     <h2 style="font-size: 1.5rem; color: #0f172a; margin-bottom: 0.3rem;">{{ $user->name }}</h2>
@@ -42,7 +42,7 @@
                                         {{ \Carbon\Carbon::parse($event->start_date)->format('d M Y') }}
                                     </p>
                                     <div style="margin-top: 0.5rem; display: flex; gap: 1rem;">
-                                        <span style="display: inline-block; background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                                        <span style="display: inline-block; background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
                                             {{ $event->skp_weight }} SKP
                                         </span>
                                         <span style="display: inline-block; background: 
@@ -81,7 +81,7 @@
 
                 <!-- Total SKP -->
                 @if($attendedEvents->count() > 0)
-                <div style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); border-radius: 12px; padding: 2rem; margin-top: 2rem; color: white; text-align: center;">
+                <div style="background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); border-radius: 12px; padding: 2rem; margin-top: 2rem; color: white; text-align: center;">
                     <p style="margin: 0; font-size: 0.9rem; opacity: 0.9; margin-bottom: 0.5rem;">Total SKP Akumulasi</p>
                     <h2 style="margin: 0; font-size: 2.5rem; font-family: 'Poppins', sans-serif;">{{ $attendedEvents->sum('skp_weight') }} SKP</h2>
                 </div>
